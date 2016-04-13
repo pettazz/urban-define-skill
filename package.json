@@ -1,0 +1,12 @@
+{
+  "name": "urban-define-alexa",
+  "version": "1.0.0",
+  "description": "Alexa Skill to define stuff via Urban Dictionary",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Nick Pettazzoni",
+  "license": "DBAD",
+  "dependencies": {
+    "urban": "0.3.1"
+  }
+}
