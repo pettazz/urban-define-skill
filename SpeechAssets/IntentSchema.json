@@ -5,7 +5,7 @@
       "slots": [
         {
           "name": "phrase",
-          "type": "LIST_OF_PHRASES"
+          "type": "AMAZON.LITERAL"
         }
       ]
     },

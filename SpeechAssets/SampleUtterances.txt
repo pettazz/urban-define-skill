@@ -1,15 +1,723 @@
-DefineIntent define {phrase}
-DefineIntent to define {phrase}
-DefineIntent explain {phrase}
-DefineIntent to explain {phrase}
-DefineIntent what is {phrase}
-DefineIntent what's {phrase}
-DefineIntent what does {phrase} mean
-DefineIntent what {phrase} means
-DefineIntent what {phrase} is
-DefineIntent what is a {phrase}
-DefineIntent what's a {phrase}
-DefineIntent {phrase}
+DefineIntent define {atomic|phrase}
+DefineIntent define {hats|phrase}
+DefineIntent define {owls|phrase}
+DefineIntent define {shirts|phrase}
+DefineIntent define {canary|phrase}
+DefineIntent define {wednesday|phrase}
+DefineIntent define {america|phrase}
+DefineIntent define {butthole|phrase}
+DefineIntent define {pirate|phrase}
+DefineIntent define {shower|phrase}
+DefineIntent define {turkey|phrase}
+DefineIntent define {bench|phrase}
+DefineIntent define {chocolate|phrase}
+DefineIntent define {fallout|phrase}
+DefineIntent define {headphones|phrase}
+DefineIntent define {television|phrase}
+DefineIntent define {garbage|phrase}
+DefineIntent define {annoying|phrase}
+DefineIntent define {awful|phrase}
+DefineIntent define {ugly|phrase}
+DefineIntent define {like hats|phrase}
+DefineIntent define {shower curtain|phrase}
+DefineIntent define {pain pills|phrase}
+DefineIntent define {chocolate chips|phrase}
+DefineIntent define {milk glass|phrase}
+DefineIntent define {horse apples|phrase}
+DefineIntent define {correct battery|phrase}
+DefineIntent define {staple banana|phrase}
+DefineIntent define {phone pile|phrase}
+DefineIntent define {laptop bonanza|phrase}
+DefineIntent define {doctor remote|phrase}
+DefineIntent define {boy wars|phrase}
+DefineIntent define {pillow pants|phrase}
+DefineIntent define {bump whiteboard|phrase}
+DefineIntent define {colored marker|phrase}
+DefineIntent define {smelly child|phrase}
+DefineIntent define {sticky buns|phrase}
+DefineIntent define {worthless securities|phrase}
+DefineIntent define {apple watch|phrase}
+DefineIntent define {stupid crap|phrase}
+DefineIntent define {pirated download content|phrase}
+DefineIntent define {synergy cow power|phrase}
+DefineIntent define {solution contains poop|phrase}
+DefineIntent define {perks inside vault|phrase}
+DefineIntent define {wishing this worked|phrase}
+DefineIntent define {bifocal lenses within|phrase}
+DefineIntent define {motherboard socket small|phrase}
+DefineIntent define {all pins bent|phrase}
+DefineIntent define {dirty elderly party|phrase}
+DefineIntent define {hopeless panda drifter|phrase}
+DefineIntent define {new york city|phrase}
+DefineIntent define {smells like pee|phrase}
+DefineIntent define {open heart surgery|phrase}
+DefineIntent define {closed foot cream|phrase}
+DefineIntent define {interior crocodile alligator|phrase}
+DefineIntent define {chevrolet movie theater|phrase}
+DefineIntent define {famous tiger eater|phrase}
+DefineIntent define {arena combat flowers|phrase}
+DefineIntent define {shiny cunning hat|phrase}
+DefineIntent define {browser opens directly cloud|phrase}
+DefineIntent define {photos have problems inside|phrase}
+DefineIntent define {upload speed lacking pinache|phrase}
+DefineIntent define {literally the worst thing|phrase}
+DefineIntent define {she hates open ended|phrase}
+DefineIntent define {utterances for some reason|phrase}
+DefineIntent define {accuracy not even important|phrase}
+DefineIntent define {skill big jokes time|phrase}
+DefineIntent define {urban dictionary garbage please|phrase}
+DefineIntent define {bacon shank butt leg|phrase}
+DefineIntent define {wizards have many holes|phrase}
+DefineIntent define {put soup into one|phrase}
+DefineIntent define {feels like nothing really|phrase}
+DefineIntent define {talking badger will die|phrase}
+DefineIntent define {knee camp fat guy|phrase}
+DefineIntent define {thanks keeping it tight|phrase}
+DefineIntent define {be on my mobile|phrase}
+DefineIntent define {put your soap in|phrase}
+DefineIntent define {my soap stack please|phrase}
+DefineIntent define {extreme restraints giant dragon|phrase}
+DefineIntent define {ring not for finger|phrase}
+DefineIntent to define {atomic|phrase}
+DefineIntent to define {hats|phrase}
+DefineIntent to define {owls|phrase}
+DefineIntent to define {shirts|phrase}
+DefineIntent to define {canary|phrase}
+DefineIntent to define {wednesday|phrase}
+DefineIntent to define {america|phrase}
+DefineIntent to define {butthole|phrase}
+DefineIntent to define {pirate|phrase}
+DefineIntent to define {shower|phrase}
+DefineIntent to define {turkey|phrase}
+DefineIntent to define {bench|phrase}
+DefineIntent to define {chocolate|phrase}
+DefineIntent to define {fallout|phrase}
+DefineIntent to define {headphones|phrase}
+DefineIntent to define {television|phrase}
+DefineIntent to define {garbage|phrase}
+DefineIntent to define {annoying|phrase}
+DefineIntent to define {awful|phrase}
+DefineIntent to define {ugly|phrase}
+DefineIntent to define {like hats|phrase}
+DefineIntent to define {shower curtain|phrase}
+DefineIntent to define {pain pills|phrase}
+DefineIntent to define {chocolate chips|phrase}
+DefineIntent to define {milk glass|phrase}
+DefineIntent to define {horse apples|phrase}
+DefineIntent to define {correct battery|phrase}
+DefineIntent to define {staple banana|phrase}
+DefineIntent to define {phone pile|phrase}
+DefineIntent to define {laptop bonanza|phrase}
+DefineIntent to define {doctor remote|phrase}
+DefineIntent to define {boy wars|phrase}
+DefineIntent to define {pillow pants|phrase}
+DefineIntent to define {bump whiteboard|phrase}
+DefineIntent to define {colored marker|phrase}
+DefineIntent to define {smelly child|phrase}
+DefineIntent to define {sticky buns|phrase}
+DefineIntent to define {worthless securities|phrase}
+DefineIntent to define {apple watch|phrase}
+DefineIntent to define {stupid crap|phrase}
+DefineIntent to define {pirated download content|phrase}
+DefineIntent to define {synergy cow power|phrase}
+DefineIntent to define {solution contains poop|phrase}
+DefineIntent to define {perks inside vault|phrase}
+DefineIntent to define {wishing this worked|phrase}
+DefineIntent to define {bifocal lenses within|phrase}
+DefineIntent to define {motherboard socket small|phrase}
+DefineIntent to define {all pins bent|phrase}
+DefineIntent to define {dirty elderly party|phrase}
+DefineIntent to define {hopeless panda drifter|phrase}
+DefineIntent to define {new york city|phrase}
+DefineIntent to define {smells like pee|phrase}
+DefineIntent to define {open heart surgery|phrase}
+DefineIntent to define {closed foot cream|phrase}
+DefineIntent to define {interior crocodile alligator|phrase}
+DefineIntent to define {chevrolet movie theater|phrase}
+DefineIntent to define {famous tiger eater|phrase}
+DefineIntent to define {arena combat flowers|phrase}
+DefineIntent to define {shiny cunning hat|phrase}
+DefineIntent to define {browser opens directly cloud|phrase}
+DefineIntent to define {photos have problems inside|phrase}
+DefineIntent to define {upload speed lacking pinache|phrase}
+DefineIntent to define {literally the worst thing|phrase}
+DefineIntent to define {she hates open ended|phrase}
+DefineIntent to define {utterances for some reason|phrase}
+DefineIntent to define {accuracy not even important|phrase}
+DefineIntent to define {skill big jokes time|phrase}
+DefineIntent to define {urban dictionary garbage please|phrase}
+DefineIntent to define {bacon shank butt leg|phrase}
+DefineIntent to define {wizards have many holes|phrase}
+DefineIntent to define {put soup into one|phrase}
+DefineIntent to define {feels like nothing really|phrase}
+DefineIntent to define {talking badger will die|phrase}
+DefineIntent to define {knee camp fat guy|phrase}
+DefineIntent to define {thanks keeping it tight|phrase}
+DefineIntent to define {be on my mobile|phrase}
+DefineIntent to define {put your soap in|phrase}
+DefineIntent to define {my soap stack please|phrase}
+DefineIntent to define {extreme restraints giant dragon|phrase}
+DefineIntent to define {ring not for finger|phrase}
+DefineIntent explain {atomic|phrase}
+DefineIntent explain {hats|phrase}
+DefineIntent explain {owls|phrase}
+DefineIntent explain {shirts|phrase}
+DefineIntent explain {canary|phrase}
+DefineIntent explain {wednesday|phrase}
+DefineIntent explain {america|phrase}
+DefineIntent explain {butthole|phrase}
+DefineIntent explain {pirate|phrase}
+DefineIntent explain {shower|phrase}
+DefineIntent explain {turkey|phrase}
+DefineIntent explain {bench|phrase}
+DefineIntent explain {chocolate|phrase}
+DefineIntent explain {fallout|phrase}
+DefineIntent explain {headphones|phrase}
+DefineIntent explain {television|phrase}
+DefineIntent explain {garbage|phrase}
+DefineIntent explain {annoying|phrase}
+DefineIntent explain {awful|phrase}
+DefineIntent explain {ugly|phrase}
+DefineIntent explain {like hats|phrase}
+DefineIntent explain {shower curtain|phrase}
+DefineIntent explain {pain pills|phrase}
+DefineIntent explain {chocolate chips|phrase}
+DefineIntent explain {milk glass|phrase}
+DefineIntent explain {horse apples|phrase}
+DefineIntent explain {correct battery|phrase}
+DefineIntent explain {staple banana|phrase}
+DefineIntent explain {phone pile|phrase}
+DefineIntent explain {laptop bonanza|phrase}
+DefineIntent explain {doctor remote|phrase}
+DefineIntent explain {boy wars|phrase}
+DefineIntent explain {pillow pants|phrase}
+DefineIntent explain {bump whiteboard|phrase}
+DefineIntent explain {colored marker|phrase}
+DefineIntent explain {smelly child|phrase}
+DefineIntent explain {sticky buns|phrase}
+DefineIntent explain {worthless securities|phrase}
+DefineIntent explain {apple watch|phrase}
+DefineIntent explain {stupid crap|phrase}
+DefineIntent explain {pirated download content|phrase}
+DefineIntent explain {synergy cow power|phrase}
+DefineIntent explain {solution contains poop|phrase}
+DefineIntent explain {perks inside vault|phrase}
+DefineIntent explain {wishing this worked|phrase}
+DefineIntent explain {bifocal lenses within|phrase}
+DefineIntent explain {motherboard socket small|phrase}
+DefineIntent explain {all pins bent|phrase}
+DefineIntent explain {dirty elderly party|phrase}
+DefineIntent explain {hopeless panda drifter|phrase}
+DefineIntent explain {new york city|phrase}
+DefineIntent explain {smells like pee|phrase}
+DefineIntent explain {open heart surgery|phrase}
+DefineIntent explain {closed foot cream|phrase}
+DefineIntent explain {interior crocodile alligator|phrase}
+DefineIntent explain {chevrolet movie theater|phrase}
+DefineIntent explain {famous tiger eater|phrase}
+DefineIntent explain {arena combat flowers|phrase}
+DefineIntent explain {shiny cunning hat|phrase}
+DefineIntent explain {browser opens directly cloud|phrase}
+DefineIntent explain {photos have problems inside|phrase}
+DefineIntent explain {upload speed lacking pinache|phrase}
+DefineIntent explain {literally the worst thing|phrase}
+DefineIntent explain {she hates open ended|phrase}
+DefineIntent explain {utterances for some reason|phrase}
+DefineIntent explain {accuracy not even important|phrase}
+DefineIntent explain {skill big jokes time|phrase}
+DefineIntent explain {urban dictionary garbage please|phrase}
+DefineIntent explain {bacon shank butt leg|phrase}
+DefineIntent explain {wizards have many holes|phrase}
+DefineIntent explain {put soup into one|phrase}
+DefineIntent explain {feels like nothing really|phrase}
+DefineIntent explain {talking badger will die|phrase}
+DefineIntent explain {knee camp fat guy|phrase}
+DefineIntent explain {thanks keeping it tight|phrase}
+DefineIntent explain {be on my mobile|phrase}
+DefineIntent explain {put your soap in|phrase}
+DefineIntent explain {my soap stack please|phrase}
+DefineIntent explain {extreme restraints giant dragon|phrase}
+DefineIntent explain {ring not for finger|phrase}
+DefineIntent to explain {atomic|phrase}
+DefineIntent to explain {hats|phrase}
+DefineIntent to explain {owls|phrase}
+DefineIntent to explain {shirts|phrase}
+DefineIntent to explain {canary|phrase}
+DefineIntent to explain {wednesday|phrase}
+DefineIntent to explain {america|phrase}
+DefineIntent to explain {butthole|phrase}
+DefineIntent to explain {pirate|phrase}
+DefineIntent to explain {shower|phrase}
+DefineIntent to explain {turkey|phrase}
+DefineIntent to explain {bench|phrase}
+DefineIntent to explain {chocolate|phrase}
+DefineIntent to explain {fallout|phrase}
+DefineIntent to explain {headphones|phrase}
+DefineIntent to explain {television|phrase}
+DefineIntent to explain {garbage|phrase}
+DefineIntent to explain {annoying|phrase}
+DefineIntent to explain {awful|phrase}
+DefineIntent to explain {ugly|phrase}
+DefineIntent to explain {like hats|phrase}
+DefineIntent to explain {shower curtain|phrase}
+DefineIntent to explain {pain pills|phrase}
+DefineIntent to explain {chocolate chips|phrase}
+DefineIntent to explain {milk glass|phrase}
+DefineIntent to explain {horse apples|phrase}
+DefineIntent to explain {correct battery|phrase}
+DefineIntent to explain {staple banana|phrase}
+DefineIntent to explain {phone pile|phrase}
+DefineIntent to explain {laptop bonanza|phrase}
+DefineIntent to explain {doctor remote|phrase}
+DefineIntent to explain {boy wars|phrase}
+DefineIntent to explain {pillow pants|phrase}
+DefineIntent to explain {bump whiteboard|phrase}
+DefineIntent to explain {colored marker|phrase}
+DefineIntent to explain {smelly child|phrase}
+DefineIntent to explain {sticky buns|phrase}
+DefineIntent to explain {worthless securities|phrase}
+DefineIntent to explain {apple watch|phrase}
+DefineIntent to explain {stupid crap|phrase}
+DefineIntent to explain {pirated download content|phrase}
+DefineIntent to explain {synergy cow power|phrase}
+DefineIntent to explain {solution contains poop|phrase}
+DefineIntent to explain {perks inside vault|phrase}
+DefineIntent to explain {wishing this worked|phrase}
+DefineIntent to explain {bifocal lenses within|phrase}
+DefineIntent to explain {motherboard socket small|phrase}
+DefineIntent to explain {all pins bent|phrase}
+DefineIntent to explain {dirty elderly party|phrase}
+DefineIntent to explain {hopeless panda drifter|phrase}
+DefineIntent to explain {new york city|phrase}
+DefineIntent to explain {smells like pee|phrase}
+DefineIntent to explain {open heart surgery|phrase}
+DefineIntent to explain {closed foot cream|phrase}
+DefineIntent to explain {interior crocodile alligator|phrase}
+DefineIntent to explain {chevrolet movie theater|phrase}
+DefineIntent to explain {famous tiger eater|phrase}
+DefineIntent to explain {arena combat flowers|phrase}
+DefineIntent to explain {shiny cunning hat|phrase}
+DefineIntent to explain {browser opens directly cloud|phrase}
+DefineIntent to explain {photos have problems inside|phrase}
+DefineIntent to explain {upload speed lacking pinache|phrase}
+DefineIntent to explain {literally the worst thing|phrase}
+DefineIntent to explain {she hates open ended|phrase}
+DefineIntent to explain {utterances for some reason|phrase}
+DefineIntent to explain {accuracy not even important|phrase}
+DefineIntent to explain {skill big jokes time|phrase}
+DefineIntent to explain {urban dictionary garbage please|phrase}
+DefineIntent to explain {bacon shank butt leg|phrase}
+DefineIntent to explain {wizards have many holes|phrase}
+DefineIntent to explain {put soup into one|phrase}
+DefineIntent to explain {feels like nothing really|phrase}
+DefineIntent to explain {talking badger will die|phrase}
+DefineIntent to explain {knee camp fat guy|phrase}
+DefineIntent to explain {thanks keeping it tight|phrase}
+DefineIntent to explain {be on my mobile|phrase}
+DefineIntent to explain {put your soap in|phrase}
+DefineIntent to explain {my soap stack please|phrase}
+DefineIntent to explain {extreme restraints giant dragon|phrase}
+DefineIntent to explain {ring not for finger|phrase}
+DefineIntent what is {atomic|phrase}
+DefineIntent what is {hats|phrase}
+DefineIntent what is {owls|phrase}
+DefineIntent what is {shirts|phrase}
+DefineIntent what is {canary|phrase}
+DefineIntent what is {wednesday|phrase}
+DefineIntent what is {america|phrase}
+DefineIntent what is {butthole|phrase}
+DefineIntent what is {pirate|phrase}
+DefineIntent what is {shower|phrase}
+DefineIntent what is {turkey|phrase}
+DefineIntent what is {bench|phrase}
+DefineIntent what is {chocolate|phrase}
+DefineIntent what is {fallout|phrase}
+DefineIntent what is {headphones|phrase}
+DefineIntent what is {television|phrase}
+DefineIntent what is {garbage|phrase}
+DefineIntent what is {annoying|phrase}
+DefineIntent what is {awful|phrase}
+DefineIntent what is {ugly|phrase}
+DefineIntent what is {like hats|phrase}
+DefineIntent what is {shower curtain|phrase}
+DefineIntent what is {pain pills|phrase}
+DefineIntent what is {chocolate chips|phrase}
+DefineIntent what is {milk glass|phrase}
+DefineIntent what is {horse apples|phrase}
+DefineIntent what is {correct battery|phrase}
+DefineIntent what is {staple banana|phrase}
+DefineIntent what is {phone pile|phrase}
+DefineIntent what is {laptop bonanza|phrase}
+DefineIntent what is {doctor remote|phrase}
+DefineIntent what is {boy wars|phrase}
+DefineIntent what is {pillow pants|phrase}
+DefineIntent what is {bump whiteboard|phrase}
+DefineIntent what is {colored marker|phrase}
+DefineIntent what is {smelly child|phrase}
+DefineIntent what is {sticky buns|phrase}
+DefineIntent what is {worthless securities|phrase}
+DefineIntent what is {apple watch|phrase}
+DefineIntent what is {stupid crap|phrase}
+DefineIntent what is {pirated download content|phrase}
+DefineIntent what is {synergy cow power|phrase}
+DefineIntent what is {solution contains poop|phrase}
+DefineIntent what is {perks inside vault|phrase}
+DefineIntent what is {wishing this worked|phrase}
+DefineIntent what is {bifocal lenses within|phrase}
+DefineIntent what is {motherboard socket small|phrase}
+DefineIntent what is {all pins bent|phrase}
+DefineIntent what is {dirty elderly party|phrase}
+DefineIntent what is {hopeless panda drifter|phrase}
+DefineIntent what is {new york city|phrase}
+DefineIntent what is {smells like pee|phrase}
+DefineIntent what is {open heart surgery|phrase}
+DefineIntent what is {closed foot cream|phrase}
+DefineIntent what is {interior crocodile alligator|phrase}
+DefineIntent what is {chevrolet movie theater|phrase}
+DefineIntent what is {famous tiger eater|phrase}
+DefineIntent what is {arena combat flowers|phrase}
+DefineIntent what is {shiny cunning hat|phrase}
+DefineIntent what is {browser opens directly cloud|phrase}
+DefineIntent what is {photos have problems inside|phrase}
+DefineIntent what is {upload speed lacking pinache|phrase}
+DefineIntent what is {literally the worst thing|phrase}
+DefineIntent what is {she hates open ended|phrase}
+DefineIntent what is {utterances for some reason|phrase}
+DefineIntent what is {accuracy not even important|phrase}
+DefineIntent what is {skill big jokes time|phrase}
+DefineIntent what is {urban dictionary garbage please|phrase}
+DefineIntent what is {bacon shank butt leg|phrase}
+DefineIntent what is {wizards have many holes|phrase}
+DefineIntent what is {put soup into one|phrase}
+DefineIntent what is {feels like nothing really|phrase}
+DefineIntent what is {talking badger will die|phrase}
+DefineIntent what is {knee camp fat guy|phrase}
+DefineIntent what is {thanks keeping it tight|phrase}
+DefineIntent what is {be on my mobile|phrase}
+DefineIntent what is {put your soap in|phrase}
+DefineIntent what is {my soap stack please|phrase}
+DefineIntent what is {extreme restraints giant dragon|phrase}
+DefineIntent what is {ring not for finger|phrase}
+DefineIntent what's {atomic|phrase}
+DefineIntent what's {hats|phrase}
+DefineIntent what's {owls|phrase}
+DefineIntent what's {shirts|phrase}
+DefineIntent what's {canary|phrase}
+DefineIntent what's {wednesday|phrase}
+DefineIntent what's {america|phrase}
+DefineIntent what's {butthole|phrase}
+DefineIntent what's {pirate|phrase}
+DefineIntent what's {shower|phrase}
+DefineIntent what's {turkey|phrase}
+DefineIntent what's {bench|phrase}
+DefineIntent what's {chocolate|phrase}
+DefineIntent what's {fallout|phrase}
+DefineIntent what's {headphones|phrase}
+DefineIntent what's {television|phrase}
+DefineIntent what's {garbage|phrase}
+DefineIntent what's {annoying|phrase}
+DefineIntent what's {awful|phrase}
+DefineIntent what's {ugly|phrase}
+DefineIntent what's {like hats|phrase}
+DefineIntent what's {shower curtain|phrase}
+DefineIntent what's {pain pills|phrase}
+DefineIntent what's {chocolate chips|phrase}
+DefineIntent what's {milk glass|phrase}
+DefineIntent what's {horse apples|phrase}
+DefineIntent what's {correct battery|phrase}
+DefineIntent what's {staple banana|phrase}
+DefineIntent what's {phone pile|phrase}
+DefineIntent what's {laptop bonanza|phrase}
+DefineIntent what's {doctor remote|phrase}
+DefineIntent what's {boy wars|phrase}
+DefineIntent what's {pillow pants|phrase}
+DefineIntent what's {bump whiteboard|phrase}
+DefineIntent what's {colored marker|phrase}
+DefineIntent what's {smelly child|phrase}
+DefineIntent what's {sticky buns|phrase}
+DefineIntent what's {worthless securities|phrase}
+DefineIntent what's {apple watch|phrase}
+DefineIntent what's {stupid crap|phrase}
+DefineIntent what's {pirated download content|phrase}
+DefineIntent what's {synergy cow power|phrase}
+DefineIntent what's {solution contains poop|phrase}
+DefineIntent what's {perks inside vault|phrase}
+DefineIntent what's {wishing this worked|phrase}
+DefineIntent what's {bifocal lenses within|phrase}
+DefineIntent what's {motherboard socket small|phrase}
+DefineIntent what's {all pins bent|phrase}
+DefineIntent what's {dirty elderly party|phrase}
+DefineIntent what's {hopeless panda drifter|phrase}
+DefineIntent what's {new york city|phrase}
+DefineIntent what's {smells like pee|phrase}
+DefineIntent what's {open heart surgery|phrase}
+DefineIntent what's {closed foot cream|phrase}
+DefineIntent what's {interior crocodile alligator|phrase}
+DefineIntent what's {chevrolet movie theater|phrase}
+DefineIntent what's {famous tiger eater|phrase}
+DefineIntent what's {arena combat flowers|phrase}
+DefineIntent what's {shiny cunning hat|phrase}
+DefineIntent what's {browser opens directly cloud|phrase}
+DefineIntent what's {photos have problems inside|phrase}
+DefineIntent what's {upload speed lacking pinache|phrase}
+DefineIntent what's {literally the worst thing|phrase}
+DefineIntent what's {she hates open ended|phrase}
+DefineIntent what's {utterances for some reason|phrase}
+DefineIntent what's {accuracy not even important|phrase}
+DefineIntent what's {skill big jokes time|phrase}
+DefineIntent what's {urban dictionary garbage please|phrase}
+DefineIntent what's {bacon shank butt leg|phrase}
+DefineIntent what's {wizards have many holes|phrase}
+DefineIntent what's {put soup into one|phrase}
+DefineIntent what's {feels like nothing really|phrase}
+DefineIntent what's {talking badger will die|phrase}
+DefineIntent what's {knee camp fat guy|phrase}
+DefineIntent what's {thanks keeping it tight|phrase}
+DefineIntent what's {be on my mobile|phrase}
+DefineIntent what's {put your soap in|phrase}
+DefineIntent what's {my soap stack please|phrase}
+DefineIntent what's {extreme restraints giant dragon|phrase}
+DefineIntent what's {ring not for finger|phrase}
+DefineIntent what does {atomic|phrase} mean
+DefineIntent what does {hats|phrase} mean
+DefineIntent what does {owls|phrase} mean
+DefineIntent what does {shirts|phrase} mean
+DefineIntent what does {canary|phrase} mean
+DefineIntent what does {wednesday|phrase} mean
+DefineIntent what does {america|phrase} mean
+DefineIntent what does {butthole|phrase} mean
+DefineIntent what does {pirate|phrase} mean
+DefineIntent what does {shower|phrase} mean
+DefineIntent what does {turkey|phrase} mean
+DefineIntent what does {bench|phrase} mean
+DefineIntent what does {chocolate|phrase} mean
+DefineIntent what does {fallout|phrase} mean
+DefineIntent what does {headphones|phrase} mean
+DefineIntent what does {television|phrase} mean
+DefineIntent what does {garbage|phrase} mean
+DefineIntent what does {annoying|phrase} mean
+DefineIntent what does {awful|phrase} mean
+DefineIntent what does {ugly|phrase} mean
+DefineIntent what does {like hats|phrase} mean
+DefineIntent what does {shower curtain|phrase} mean
+DefineIntent what does {pain pills|phrase} mean
+DefineIntent what does {chocolate chips|phrase} mean
+DefineIntent what does {milk glass|phrase} mean
+DefineIntent what does {horse apples|phrase} mean
+DefineIntent what does {correct battery|phrase} mean
+DefineIntent what does {staple banana|phrase} mean
+DefineIntent what does {phone pile|phrase} mean
+DefineIntent what does {laptop bonanza|phrase} mean
+DefineIntent what does {doctor remote|phrase} mean
+DefineIntent what does {boy wars|phrase} mean
+DefineIntent what does {pillow pants|phrase} mean
+DefineIntent what does {bump whiteboard|phrase} mean
+DefineIntent what does {colored marker|phrase} mean
+DefineIntent what does {smelly child|phrase} mean
+DefineIntent what does {sticky buns|phrase} mean
+DefineIntent what does {worthless securities|phrase} mean
+DefineIntent what does {apple watch|phrase} mean
+DefineIntent what does {stupid crap|phrase} mean
+DefineIntent what does {pirated download content|phrase} mean
+DefineIntent what does {synergy cow power|phrase} mean
+DefineIntent what does {solution contains poop|phrase} mean
+DefineIntent what does {perks inside vault|phrase} mean
+DefineIntent what does {wishing this worked|phrase} mean
+DefineIntent what does {bifocal lenses within|phrase} mean
+DefineIntent what does {motherboard socket small|phrase} mean
+DefineIntent what does {all pins bent|phrase} mean
+DefineIntent what does {dirty elderly party|phrase} mean
+DefineIntent what does {hopeless panda drifter|phrase} mean
+DefineIntent what does {new york city|phrase} mean
+DefineIntent what does {smells like pee|phrase} mean
+DefineIntent what does {open heart surgery|phrase} mean
+DefineIntent what does {closed foot cream|phrase} mean
+DefineIntent what does {interior crocodile alligator|phrase} mean
+DefineIntent what does {chevrolet movie theater|phrase} mean
+DefineIntent what does {famous tiger eater|phrase} mean
+DefineIntent what does {arena combat flowers|phrase} mean
+DefineIntent what does {shiny cunning hat|phrase} mean
+DefineIntent what does {browser opens directly cloud|phrase} mean
+DefineIntent what does {photos have problems inside|phrase} mean
+DefineIntent what does {upload speed lacking pinache|phrase} mean
+DefineIntent what does {literally the worst thing|phrase} mean
+DefineIntent what does {she hates open ended|phrase} mean
+DefineIntent what does {utterances for some reason|phrase} mean
+DefineIntent what does {accuracy not even important|phrase} mean
+DefineIntent what does {skill big jokes time|phrase} mean
+DefineIntent what does {urban dictionary garbage please|phrase} mean
+DefineIntent what does {bacon shank butt leg|phrase} mean
+DefineIntent what does {wizards have many holes|phrase} mean
+DefineIntent what does {put soup into one|phrase} mean
+DefineIntent what does {feels like nothing really|phrase} mean
+DefineIntent what does {talking badger will die|phrase} mean
+DefineIntent what does {knee camp fat guy|phrase} mean
+DefineIntent what does {thanks keeping it tight|phrase} mean
+DefineIntent what does {be on my mobile|phrase} mean
+DefineIntent what does {put your soap in|phrase} mean
+DefineIntent what does {my soap stack please|phrase} mean
+DefineIntent what does {extreme restraints giant dragon|phrase} mean
+DefineIntent what does {ring not for finger|phrase} mean
+DefineIntent what {atomic|phrase} means
+DefineIntent what {hats|phrase} means
+DefineIntent what {owls|phrase} means
+DefineIntent what {shirts|phrase} means
+DefineIntent what {canary|phrase} means
+DefineIntent what {wednesday|phrase} means
+DefineIntent what {america|phrase} means
+DefineIntent what {butthole|phrase} means
+DefineIntent what {pirate|phrase} means
+DefineIntent what {shower|phrase} means
+DefineIntent what {turkey|phrase} means
+DefineIntent what {bench|phrase} means
+DefineIntent what {chocolate|phrase} means
+DefineIntent what {fallout|phrase} means
+DefineIntent what {headphones|phrase} means
+DefineIntent what {television|phrase} means
+DefineIntent what {garbage|phrase} means
+DefineIntent what {annoying|phrase} means
+DefineIntent what {awful|phrase} means
+DefineIntent what {ugly|phrase} means
+DefineIntent what {like hats|phrase} means
+DefineIntent what {shower curtain|phrase} means
+DefineIntent what {pain pills|phrase} means
+DefineIntent what {chocolate chips|phrase} means
+DefineIntent what {milk glass|phrase} means
+DefineIntent what {horse apples|phrase} means
+DefineIntent what {correct battery|phrase} means
+DefineIntent what {staple banana|phrase} means
+DefineIntent what {phone pile|phrase} means
+DefineIntent what {laptop bonanza|phrase} means
+DefineIntent what {doctor remote|phrase} means
+DefineIntent what {boy wars|phrase} means
+DefineIntent what {pillow pants|phrase} means
+DefineIntent what {bump whiteboard|phrase} means
+DefineIntent what {colored marker|phrase} means
+DefineIntent what {smelly child|phrase} means
+DefineIntent what {sticky buns|phrase} means
+DefineIntent what {worthless securities|phrase} means
+DefineIntent what {apple watch|phrase} means
+DefineIntent what {stupid crap|phrase} means
+DefineIntent what {pirated download content|phrase} means
+DefineIntent what {synergy cow power|phrase} means
+DefineIntent what {solution contains poop|phrase} means
+DefineIntent what {perks inside vault|phrase} means
+DefineIntent what {wishing this worked|phrase} means
+DefineIntent what {bifocal lenses within|phrase} means
+DefineIntent what {motherboard socket small|phrase} means
+DefineIntent what {all pins bent|phrase} means
+DefineIntent what {dirty elderly party|phrase} means
+DefineIntent what {hopeless panda drifter|phrase} means
+DefineIntent what {new york city|phrase} means
+DefineIntent what {smells like pee|phrase} means
+DefineIntent what {open heart surgery|phrase} means
+DefineIntent what {closed foot cream|phrase} means
+DefineIntent what {interior crocodile alligator|phrase} means
+DefineIntent what {chevrolet movie theater|phrase} means
+DefineIntent what {famous tiger eater|phrase} means
+DefineIntent what {arena combat flowers|phrase} means
+DefineIntent what {shiny cunning hat|phrase} means
+DefineIntent what {browser opens directly cloud|phrase} means
+DefineIntent what {photos have problems inside|phrase} means
+DefineIntent what {upload speed lacking pinache|phrase} means
+DefineIntent what {literally the worst thing|phrase} means
+DefineIntent what {she hates open ended|phrase} means
+DefineIntent what {utterances for some reason|phrase} means
+DefineIntent what {accuracy not even important|phrase} means
+DefineIntent what {skill big jokes time|phrase} means
+DefineIntent what {urban dictionary garbage please|phrase} means
+DefineIntent what {bacon shank butt leg|phrase} means
+DefineIntent what {wizards have many holes|phrase} means
+DefineIntent what {put soup into one|phrase} means
+DefineIntent what {feels like nothing really|phrase} means
+DefineIntent what {talking badger will die|phrase} means
+DefineIntent what {knee camp fat guy|phrase} means
+DefineIntent what {thanks keeping it tight|phrase} means
+DefineIntent what {be on my mobile|phrase} means
+DefineIntent what {put your soap in|phrase} means
+DefineIntent what {my soap stack please|phrase} means
+DefineIntent what {extreme restraints giant dragon|phrase} means
+DefineIntent what {ring not for finger|phrase} means
+DefineIntent what {atomic|phrase} is
+DefineIntent what {hats|phrase} is
+DefineIntent what {owls|phrase} is
+DefineIntent what {shirts|phrase} is
+DefineIntent what {canary|phrase} is
+DefineIntent what {wednesday|phrase} is
+DefineIntent what {america|phrase} is
+DefineIntent what {butthole|phrase} is
+DefineIntent what {pirate|phrase} is
+DefineIntent what {shower|phrase} is
+DefineIntent what {turkey|phrase} is
+DefineIntent what {bench|phrase} is
+DefineIntent what {chocolate|phrase} is
+DefineIntent what {fallout|phrase} is
+DefineIntent what {headphones|phrase} is
+DefineIntent what {television|phrase} is
+DefineIntent what {garbage|phrase} is
+DefineIntent what {annoying|phrase} is
+DefineIntent what {awful|phrase} is
+DefineIntent what {ugly|phrase} is
+DefineIntent what {like hats|phrase} is
+DefineIntent what {shower curtain|phrase} is
+DefineIntent what {pain pills|phrase} is
+DefineIntent what {chocolate chips|phrase} is
+DefineIntent what {milk glass|phrase} is
+DefineIntent what {horse apples|phrase} is
+DefineIntent what {correct battery|phrase} is
+DefineIntent what {staple banana|phrase} is
+DefineIntent what {phone pile|phrase} is
+DefineIntent what {laptop bonanza|phrase} is
+DefineIntent what {doctor remote|phrase} is
+DefineIntent what {boy wars|phrase} is
+DefineIntent what {pillow pants|phrase} is
+DefineIntent what {bump whiteboard|phrase} is
+DefineIntent what {colored marker|phrase} is
+DefineIntent what {smelly child|phrase} is
+DefineIntent what {sticky buns|phrase} is
+DefineIntent what {worthless securities|phrase} is
+DefineIntent what {apple watch|phrase} is
+DefineIntent what {stupid crap|phrase} is
+DefineIntent what {pirated download content|phrase} is
+DefineIntent what {synergy cow power|phrase} is
+DefineIntent what {solution contains poop|phrase} is
+DefineIntent what {perks inside vault|phrase} is
+DefineIntent what {wishing this worked|phrase} is
+DefineIntent what {bifocal lenses within|phrase} is
+DefineIntent what {motherboard socket small|phrase} is
+DefineIntent what {all pins bent|phrase} is
+DefineIntent what {dirty elderly party|phrase} is
+DefineIntent what {hopeless panda drifter|phrase} is
+DefineIntent what {new york city|phrase} is
+DefineIntent what {smells like pee|phrase} is
+DefineIntent what {open heart surgery|phrase} is
+DefineIntent what {closed foot cream|phrase} is
+DefineIntent what {interior crocodile alligator|phrase} is
+DefineIntent what {chevrolet movie theater|phrase} is
+DefineIntent what {famous tiger eater|phrase} is
+DefineIntent what {arena combat flowers|phrase} is
+DefineIntent what {shiny cunning hat|phrase} is
+DefineIntent what {browser opens directly cloud|phrase} is
+DefineIntent what {photos have problems inside|phrase} is
+DefineIntent what {upload speed lacking pinache|phrase} is
+DefineIntent what {literally the worst thing|phrase} is
+DefineIntent what {she hates open ended|phrase} is
+DefineIntent what {utterances for some reason|phrase} is
+DefineIntent what {accuracy not even important|phrase} is
+DefineIntent what {skill big jokes time|phrase} is
+DefineIntent what {urban dictionary garbage please|phrase} is
+DefineIntent what {bacon shank butt leg|phrase} is
+DefineIntent what {wizards have many holes|phrase} is
+DefineIntent what {put soup into one|phrase} is
+DefineIntent what {feels like nothing really|phrase} is
+DefineIntent what {talking badger will die|phrase} is
+DefineIntent what {knee camp fat guy|phrase} is
+DefineIntent what {thanks keeping it tight|phrase} is
+DefineIntent what {be on my mobile|phrase} is
+DefineIntent what {put your soap in|phrase} is
+DefineIntent what {my soap stack please|phrase} is
+DefineIntent what {extreme restraints giant dragon|phrase} is
+DefineIntent what {ring not for finger|phrase} is
 
 RandomIntent random
 RandomIntent for random
