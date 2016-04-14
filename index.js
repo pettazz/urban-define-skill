@@ -18,8 +18,8 @@ UrbanDefine.prototype.eventHandlers.onSessionStarted = function (sessionStartedR
 
 UrbanDefine.prototype.eventHandlers.onLaunch = function (launchRequest, session, response) {
     console.log("UrbanDefine onLaunch requestId: " + launchRequest.requestId + ", sessionId: " + session.sessionId);
-    var speechOutput = "Yo, sup?";
-    var repromptText = "You can say stuff";
+    var speechOutput = "Hi there. You can ask me to define any phrase, or for a random definition. What would you like me to try to find for you?";
+    var repromptText = "For instructions on what you can say, please say help me.";
     response.ask(speechOutput, repromptText);
 };
 
@@ -100,7 +100,17 @@ UrbanDefine.prototype.intentHandlers = {
         });
     },
     "AMAZON.HelpIntent": function (intent, session, response) {
-        response.ask("Ask me to define a phrase via Urban Dictionary!", "Ask me to define a phrase via Urban Dictionary!");
+        var speechText = "You can ask me to define a phrase via Urban Dictionary like, what's fancy pants mean, or, you can ask for a random definition, or, you can say exit... Now, what can I try to find for you?";
+        var repromptText = "You can ask me to define a phrase via Urban Dictionary like, what's fancy pants mean, or, you can ask for a random definition, or, you can say exit... Now, what can I try to find for you?";
+        var speechOutput = {
+            speech: speechText,
+            type: AlexaSkill.speechOutputType.PLAIN_TEXT
+        };
+        var repromptOutput = {
+            speech: repromptText,
+            type: AlexaSkill.speechOutputType.PLAIN_TEXT
+        };
+        response.ask(speechOutput, repromptOutput);
     },
     "AMAZON.StopIntent": function (intent, session, response) {
         var speechOutput = "See ya";

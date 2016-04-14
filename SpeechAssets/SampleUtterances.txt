@@ -5,6 +5,8 @@ DefineIntent to explain {phrase}
 DefineIntent what is {phrase}
 DefineIntent what's {phrase}
 DefineIntent what does {phrase} mean
+DefineIntent what {phrase} means
+DefineIntent what {phrase} is
 DefineIntent what is a {phrase}
 DefineIntent what's a {phrase}
 DefineIntent {phrase}
