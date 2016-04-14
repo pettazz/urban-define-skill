@@ -3,7 +3,7 @@ var APP_ID = undefined;
 var AlexaSkill = require('./AlexaSkill');
 var urban = require('urban');
 
-var HelloWorld = function () {
+var UrbanDefine = function () {
     AlexaSkill.call(this, APP_ID);
 };
 
@@ -12,8 +12,7 @@ UrbanDefine.prototype = Object.create(AlexaSkill.prototype);
 UrbanDefine.prototype.constructor = UrbanDefine;
 
 UrbanDefine.prototype.eventHandlers.onSessionStarted = function (sessionStartedRequest, session) {
-    console.log("UrbanDefine onSessionStarted requestId: " + sessionStartedRequest.requestId
-        + ", sessionId: " + session.sessionId);
+    console.log("UrbanDefine onSessionStarted requestId: " + sessionStartedRequest.requestId + ", sessionId: " + session.sessionId);
     // any initialization logic goes here
 };
 
@@ -25,8 +24,7 @@ UrbanDefine.prototype.eventHandlers.onLaunch = function (launchRequest, session,
 };
 
 UrbanDefine.prototype.eventHandlers.onSessionEnded = function (sessionEndedRequest, session) {
-    console.log("UrbanDefine onSessionEnded requestId: " + sessionEndedRequest.requestId
-        + ", sessionId: " + session.sessionId);
+    console.log("UrbanDefine onSessionEnded requestId: " + sessionEndedRequest.requestId + ", sessionId: " + session.sessionId);
     // any cleanup logic goes here
 };
 
@@ -45,7 +43,7 @@ UrbanDefine.prototype.intentHandlers = {
             repromptOutput;
         var defPromise = urban(phrase);
 
-        defPromise.first(function(result)){
+        defPromise.first(function(result){
             console.log(result);
 
             if(result){
@@ -71,7 +69,35 @@ UrbanDefine.prototype.intentHandlers = {
                 };
                 response.ask(speechOutput, repromptOutput);
             }
-        }
+        });
+    },
+
+    "RandomIntent": function (intent, session, response) {
+        urban.random().first(function(result){
+            console.log(result);
+
+            if(result){
+                var cardTitle = "Definition of " + result.word,
+                    speechOutput,
+                    repromptOutput;
+                speechOutput = {
+                    speech: result.word + '. Definition: ' + result.definition + '. Example: ' + result.example,
+                    type: AlexaSkill.speechOutputType.PLAIN_TEXT
+                };
+                response.tellWithCard(speechOutput, cardTitle, result.definition);
+            }else{
+                var speech = "That doesn't sound right, but I don't know enough about dumb internet definitions to dispute it.";
+                speechOutput = {
+                    speech: speech,
+                    type: AlexaSkill.speechOutputType.PLAIN_TEXT
+                };
+                repromptOutput = {
+                    speech: "What else can I find for you?",
+                    type: AlexaSkill.speechOutputType.PLAIN_TEXT
+                };
+                response.ask(speechOutput, repromptOutput);
+            }
+        });
     },
     "AMAZON.HelpIntent": function (intent, session, response) {
         response.ask("Ask me to define a phrase via Urban Dictionary!", "Ask me to define a phrase via Urban Dictionary!");

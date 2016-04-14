@@ -7,3 +7,11 @@ DefineIntent what's {phrase}
 DefineIntent what does {phrase} mean
 DefineIntent what is a {phrase}
 DefineIntent what's a {phrase}
+DefineIntent {phrase}
+
+RandomIntent random
+RandomIntent for random
+RandomIntent for a random definition
+RandomIntent for a random word
+RandomIntent for something random
+RandomIntent for some random
