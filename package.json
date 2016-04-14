@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {},
   "author": "Nick Pettazzoni",
-  "license": "DBAD",
+  "license": "WTFPL",
   "dependencies": {
     "urban": "0.3.1"
   }

@@ -1,0 +1,9 @@
+DefineIntent define {phrase}
+DefineIntent to define {phrase}
+DefineIntent explain {phrase}
+DefineIntent to explain {phrase}
+DefineIntent what is {phrase}
+DefineIntent what's {phrase}
+DefineIntent what does {phrase} mean
+DefineIntent what is a {phrase}
+DefineIntent what's a {phrase}
